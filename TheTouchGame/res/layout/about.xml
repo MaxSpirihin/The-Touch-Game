@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="@string/app_name"
+        android:textColor="#6666FF"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textVersion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="4dp"
+        android:text="@string/version"
+        android:textColor="#6666FF"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textReleaseDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textVersion"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="4dp"
+        android:text="@string/release_date"
+        android:textColor="#6666FF"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textAboutMe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textReleaseDate"
+        android:layout_marginTop="4dp"
+        android:text="@string/about_me"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/textEMail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textAboutMe"
+        android:layout_marginTop="4dp"
+        android:textColor="#0000FF"
+        android:textIsSelectable="true"
+        android:text="@string/e_mail"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textVkPage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textEMail"
+        android:layout_marginTop="4dp"
+        android:textColor="#0000FF"
+        android:textIsSelectable="true"
+        android:text="@string/vk_page"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/to_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/back_button"
+        android:text=""
+        android:textColor="@color/text_color"
+        android:textSize="30sp" />
+
+</RelativeLayout>

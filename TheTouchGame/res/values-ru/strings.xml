@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_standard_mode">СТАНДАРТНЫЙ РЕЖИМ</string>
+    <string name="menu_choose_mode">ВЫБРАТЬ РЕЖИМ</string>
+    <string name="menu_show_rules">ПРАВИЛА</string>
+    <string name="menu_records">РЕКОРДЫ</string>
+    <string name="menu_in_choose_mode">выбрать режим</string>
+    <string name="menu_simple_mode">ПРОСТОЙ РЕЖИМ</string>
+    <string name="about">инфа будет здесь</string>
+    <string name="enter_your_name">Введите имя:</string>
+    <string name="save">СОХРАНИТЬ</string>
+    <string name="cancel">ОТМЕНА</string>
+    <string name="game_over">Конец игры</string>
+    <string name="your_score">Ваш результат</string>
+    <string name="best_score">Рекорд = </string>
+    <string name="restart_in_finish">ЗАНОВО</string>
+    <string name="to_main_menu_in_finish">В ГЛАВНОЕ МЕНЮ</string>
+    <string name="your_name">Вас зовут</string>
+    <string name="change_name">Сменить имя</string>
+    <string name="show_records">К рекордам</string>
+    <string name="records">Рекорды - </string>
+    <string name="number">№</string>
+    <string name="name">Имя</string>
+    <string name="score">Результат</string>
+    <string name="clear_records">ОЧИСТИТЬ</string>
+    <string name="rules">ПРАВИЛА</string>
+    <string name="simple_mode_begin">Жми на палец</string>
+    <string name="standard_mode_begin">Жми на зеленые</string>
+    <string name="score_begin">Результат = 0</string>
+    <string name="time_left">Осталось</string>
+    <string name="restart_in_menu">заново</string>
+    <string name="to_main_menu_in_menu">в главное меню</string>
+    <string name="exit_in_menu">выход</string>
+    <string name="are_you_sure">Вы уверены?</string>
+    <string name="progress_will_be_lost">Прогресс будет потерян</string>
+    <string name="yes">ДА</string>
+    <string name="no">НЕТ</string>
+    <string name="exit_in_dialog">ВЫХОД</string>
+    <string name="clear_records_dialog">ОЧИСТИТЬ РЕКОРДЫ</string>
+    <string name="records_in_standard">Рекорды в стандартном режиме</string>
+    <string name="records_in_simple">Рекорды в простом режиме</string>
+    <string name="color_mode_begin">Начинай</string>
+    <string name="press_green">Жми на зеленые</string>
+    <string name="press_red">Жми на красные</string>
+    <string name="press_blue">Жми на синие</string>
+    <string name="press_yellow">Жми на желтые</string>
+    <string name="press_white">Жми на белые</string>
+    <string name="menu_color_mode">ЦВЕТНОЙ РЕЖИМ</string>
+    <string name="records_in_color">Рекорды в цветном режиме</string>
+    <string name="calculator_mode_begin">Реши пример</string>
+    <string name="choose_difficulty">Выберите сложность. Рекорды будут общие</string>
+    <string name="easy_difficulty">ЛЕГКО</string>
+    <string name="hard_difficulty">СЛОЖНО</string>
+    <string name="normal_difficulty">СРЕДНЕ</string>
+    <string name="menu_calculator_mode">РЕЖИМ КАЛЬКУЛЯТОРА</string>
+    <string name="records_in_calculator">Рекорды в режиме калькулятора</string>
+    <string name="hardcore_mode_begin">Жми на палец</string>
+    <string name="menu_hardcore_mode">РЕЖИМ ХАРДКОР</string>
+    <string name="records_in_hardcore">Рекорды в хардкор режиме</string>
+    <string name="rules_of_simple_mode">Просто жмите на палец на экране. Торопитесь. Нажимая, вы получите очко и дополнительное время на таймере. Попробуйте набрать много очков. </string>
+    <string name="rules_of_standard_mode">Жмите на зеленые пальцы и остерегайтесь красных. Нажав на зеленый, вы получите очко и дополнительное время на таймере. Нажав на красный палец, вы потеряете некоторое время на таймере. Осторожно! Иногда пальцы произвольно меняют цвет и расположение. Удачи! </string>
+    <string name="rules_of_color_mode">Следуйте инструкциям на экране и жмите на пальцы нужного цвета. За каждый такой палец вы получите одно очко, за последний такой палец на экране, вы получите 3 очка. Начинайте! </string>
+    <string name="rules_of_calculator_mode">Решите простой пример на экране и нажмите кнопку с решением. За это вы получите очко и дополнительное время на таймере. Режим содержит 3 уровня сложности. Сложность примера зависит от них, но в простом режиме вы получаете меньше дополнительного времени. Поэтому рекорды не зависят от сложности. Выбирайте и играйте! </string>
+    <string name="rules_of_hardcore_mode">Это действительно ОЧЕНЬ СЛОЖНЫЙ режим. Вы должны нажать на палец, который постоянно меняет местоположение. Если вы промахнетесь, вы проиграете. Постарайтесь набрать хотя бы 5 очков.</string>
+    <string name="memory_mode_begin">Запоминай и жми зеленые</string>
+    <string name="memorize">Запоминай</string>
+    <string name="be_ready">Готовься</string>
+    <string name="menu_memory_mode">РЕЖИМ ПАМЯТИ</string>
+    <string name="records_in_memory">Рекорды в режиме памяти</string>
+    <string name="rules_of_memory_mode">У вас есть немного времени, чтобы запомнить цвета пальцев. Когда они станут белыми, вы должны жать на пальцы, которые были зелеными. Ошибка - конец игры. Тренируйте память в режиме памяти.</string>
+    <string name="about_me">Эта игра - проект одного разработчика:\nМаксим Спирихин - студент НИЯУ МИФИ.\n«Эта игра - мой первый серьезный проект. Я начал изучать андроид разработку всего месяц назад и «The Touch Game» стала результатом моего труда. Я собираюсь всерьез заниматься разработкой под андроид. Прошу оценить эту игру в play market. Я могу добавить в игру новые режимы или начать работать над новым проектом. Жду ваших отзывов и предложений.» </string>
+
+</resources>

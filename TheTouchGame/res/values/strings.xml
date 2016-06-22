@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <string name="hello_world">Hello world!</string>
+    <string name="app_name">The Touch Game</string>
+    <string name="menu_standard_mode">STANDARD MODE</string>
+    <string name="menu_choose_mode">CHOOSE MODE</string>
+    <string name="menu_show_rules">SHOW RULES</string>
+    <string name="menu_records">SHOW RECORDS</string>
+    <string name="menu_in_choose_mode">choose mode</string>
+    <string name="menu_simple_mode">SIMPLE MODE</string>
+    <string name="about">About will be here</string>
+    <string name="enter_your_name">Enter your name:</string>
+    <string name="save">SAVE</string>
+    <string name="cancel">CANCEL</string>
+    <string name="game_over">Game Over</string>
+    <string name="your_score">Your Score</string>
+    <string name="best_score">Best Score = </string>
+    <string name="restart_in_finish">RESTART</string>
+    <string name="to_main_menu_in_finish">TO MAIN MENU</string>
+    <string name="your_name">Your Name = </string>
+    <string name="change_name">Change Name</string>
+    <string name="show_records">Show Records</string>
+    <string name="records">Records - </string>
+    <string name="number">№</string>
+    <string name="name">Name</string>
+    <string name="score">Score</string>
+    <string name="clear_records">CLEAR RECORDS</string>
+    <string name="rules">RULES</string>
+    <string name="simple_mode_begin">Press finger</string>
+    <string name="standard_mode_begin">Press green fingers</string>
+    <string name="score_begin">Score = 0</string>
+    <string name="time_left">Time Left</string>
+    <string name="restart_in_menu">restart</string>
+    <string name="to_main_menu_in_menu">to main menu</string>
+    <string name="exit_in_menu">exit</string>
+    <string name="are_you_sure">Are you sure?</string>
+    <string name="progress_will_be_lost">Progress will be lost</string>
+    <string name="yes">YES</string>
+    <string name="no">NO</string>
+    <string name="exit_in_dialog">EXIT</string>
+    <string name="clear_records_dialog">CLEAR RECORDS</string>
+    <string name="records_in_standard">Records in standrard mode</string>
+    <string name="records_in_simple">Records in simple mode</string>
+    <string name="color_mode_begin">Begin</string>
+    <string name="press_green">Press Green Fingers</string>
+    <string name="press_red">Press Red Fingers</string>
+    <string name="press_blue">Press Blue Fingers</string>
+    <string name="press_yellow">Press Yellow Fingers</string>
+    <string name="press_white">Press White Fingers</string>
+    <string name="menu_color_mode">COLOR MODE</string>
+    <string name="records_in_color">Records in color mode</string>
+    <string name="calculator_mode_begin">Solve the task</string>
+    <string name="choose_difficulty">Choose the difficulty. Records will be general</string>
+    <string name="easy_difficulty">EASY</string>
+    <string name="hard_difficulty">HARD</string>
+    <string name="normal_difficulty">NORMAL</string>
+    <string name="menu_calculator_mode">CALCULATOR MODE</string>
+    <string name="records_in_calculator">Records in calculator mode</string>
+    <string name="hardcore_mode_begin">Press finger quick</string>
+    <string name="menu_hardcore_mode">HARDCORE MODE</string>
+    <string name="records_in_hardcore">Records in hardcore mode</string>
+    <string name="rules_of_simple_mode">Just press to finger on the screen. Try doing it quickly. When touched you take point and extra time on timer. Try dialing a lot of points. </string>
+    <string name="rules_of_standard_mode">Press to the green finger and beware red. When touched green finger you take point and extra time on timer. When touched red finger you lose some time on timer. Be careful. Sometimes fingers arbitrarily change color and location. Good luck!!! </string>
+    <string name="rules_of_color_mode">Follow the instructions on the screen and press fingers with the right color. For every right finger you take one point, for last right finger on the screen you take 3 points. Lets start!!! </string>
+    <string name="rules_of_calculator_mode">Solve the simple task on the screen and press button with solution. You take point and extra time on timer for it. There are 3 difficulties in mode. Difficulty of the task depends on them, but on easy mode you take less extra time. So records not depend on the difficulty. Choose and play!!! </string>
+    <string name="rules_of_hardcore_mode">This is really HARDCORE mode. You must to press to finger, which change location constantly. If you miss you lose. Try to get at least 5 points.</string>
+    <string name="ok">OK</string>
+    <string name="memory_mode_begin">Memorize and press green</string>
+    <string name="memorize">Memorize</string>
+    <string name="be_ready">Be Ready</string>
+    <string name="menu_memory_mode">MEMORY MODE</string>
+    <string name="records_in_memory">Records in memory mode</string>
+    <string name="rules_of_memory_mode">You have little time to memorize color of fingers. They become white and you must press to buttons, which were green. One mistake and you lose. Train you memory in memory mode.</string>
+    <string name="version">version 1.00</string>
+    <string name="release_date">Release Date: 24.07.2014</string>
+    <string name="about_me">This game is a project of one developer:\nMaxim Spirikhin - russian student NRNU MEPHI.\n"This game is my first serious project. I start learning android development just one month ago and "The Touch Game" became result of it. I want to seriously engage in the development of under android. I ask you rate my game in play market.  I can add new mode to the game or begin work on a new project. I look forward to your comments and suggestions.</string>
+    <string name="e_mail"><u>maaaks777@mail.ru</u></string>
+    <string name="vk_page"><u>vk.com/maaaks777</u></string>
+
+</resources>

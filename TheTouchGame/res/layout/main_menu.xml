@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_menu_background"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textViewName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="@string/app_name"
+        android:textColor="#0000FF"
+        android:textSize="40sp" />
+
+    <Button
+        android:id="@+id/to_standard_mode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/clear_background"
+        android:text="@string/menu_standard_mode"
+        android:textColor="@color/text_color"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/to_choose_mode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/to_standard_mode"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/clear_background"
+        android:text="@string/menu_choose_mode"
+        android:textColor="@color/text_color"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/to_show_rules"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/to_choose_mode"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/clear_background"
+        android:text="@string/menu_show_rules"
+        android:textColor="@color/text_color"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/to_records"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/to_show_rules"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/clear_background"
+        android:text="@string/menu_records"
+        android:textColor="@color/text_color"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/to_about"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/about_button"
+        android:text=""
+        android:textColor="@color/text_color"
+        android:textSize="30sp" />
+
+    <ToggleButton
+        android:id="@+id/sound_on_off"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/sound_on_off_button"
+        android:textColor="@color/text_color"
+        android:textOff=""
+        android:textOn=""
+        android:textSize="30sp" />
+
+    <ToggleButton
+        android:id="@+id/vibrate_on_off"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/sound_on_off"
+        android:background="@drawable/vibrate_on_off_button"
+        android:textColor="@color/text_color"
+        android:textOff=""
+        android:textOn=""
+        android:textSize="30sp" />
+
+</RelativeLayout>

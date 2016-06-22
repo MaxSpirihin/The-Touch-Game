@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/HeaderRules"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/rules"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#0000FF" />
+
+            <TextView
+                android:id="@+id/HeaderStandard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/menu_standard_mode"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/RulesStandard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rules_of_standard_mode"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/HeaderSimple"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/menu_simple_mode"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/RulesSimple"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rules_of_simple_mode"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/HeaderColor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/menu_color_mode"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/RulesColor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rules_of_color_mode"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/HeaderCalculator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/menu_calculator_mode"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/RulesCalculator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rules_of_calculator_mode"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/HeaderMemory"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/menu_memory_mode"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/RulesMemory"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rules_of_memory_mode"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/HeaderHardcore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/menu_hardcore_mode"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/RulesHardcore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rules_of_hardcore_mode"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/to_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:background="@drawable/back_button"
+                android:gravity="right"
+                android:textColor="@color/text_color"
+                android:textSize="30sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
